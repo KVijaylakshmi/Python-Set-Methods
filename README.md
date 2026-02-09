@@ -36,29 +36,25 @@ print(item)
 fruits.clear()
 print(fruits)  # set()
 
-Set Operations (the fun part 😎)
+Set Operations 
 A = {1, 2, 3, 4}
 B = {3, 4, 5, 6}
 
 7. union()
 print(A.union(B))        # {1, 2, 3, 4, 5, 6}
-# or
-print(A | B)
+
 
 8. intersection()
 print(A.intersection(B)) # {3, 4}
-# or
-print(A & B)
+
 
 9. difference()
 print(A.difference(B))   # {1, 2}
-# or
-print(A - B)
+
 
 10. symmetric_difference()
 print(A.symmetric_difference(B))  # {1, 2, 5, 6}
-# or
-print(A ^ B)
+
 
 11. issubset() / issuperset()
 C = {1, 2}
